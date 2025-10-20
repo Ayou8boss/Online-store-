@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    
+
+  font-family: "Oswald", sans-serif;
+ 
+    }
+.header{
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 8px;
+}
+.logo{
+ width: 160px;
+ height: 120px;
+ padding-left: 15px;    
+ }
+ .head-links a {
+   color: white;
+   padding: 5px 16px;
+   text-decoration: none;
+   border-radius: 27px;
+ }
+ .head-links a:hover{
+    background-color: rgb(110, 113, 120);
+ }
+ .head-links button {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  padding: 9px 10px 9px 10px ;
+  border-radius: 40px;
+
+
+ }
+ .head-links button:hover {
+  background-color:rgb(189, 120, 120) ;
+ }
+ .page {
+    background-color: rgba(179, 167, 167, 0.534);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    border-radius: 0px 0px 60px 60px;
+ }
+ .search input {
+    border-radius: 20px;
+    width: 210px;
+    padding: 7px 18px 7px 8px;
+    outline-style: none;
+ }
+ .btn {
+    position: absolute;
+    left: 274px;
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+     height: 34px;
+}
+.btn:hover {
+background-color: rgb(244, 171, 171);
+}
+.img-banner img {
+    border-radius: 20px;
+    width: 470px;
+    height: 400px;
+}
+.trend-cont{
+   padding: 25px 50px;
+}
+.trend-cont span{
+   color: red;
+   text-transform: uppercase;
+}
+.trend-header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.trend-cont h1 {
+   margin-top: 0px;
+}
+.card{
+   width: 300px;
+   background-color:rgb(179, 167, 167, 0.534) ;
+   border-radius: 20px;
+}
+.view-btn {
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+    height: 34px;
+
+}
+.view-btn:hover {
+   background-color: rgb(244, 171, 171);
+}
+.card-info{
+   display: flex;
+   justify-content: space-between;
+   justify-content: space-around;
+   align-items: center;
+  
+  
+
+}
+.card-info img {
+   width: 50px;
+   margin: 0px;
+}
+.trend-cards{
+   display: flex;
+   gap: 120px;
+   padding-bottom: 8px;
+ 
+   
+}
+
+
+.shop:hover{
+    background-color: rgba(136, 174, 227, 0.434);
+    border: none;
+    border-radius: 0px;
+  }
+.shop-btn{
+    background-color:white ;
+     border-radius: 10px;
+     border: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
